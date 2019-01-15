@@ -76,7 +76,6 @@
         txtpH.Text = ""
         txtAlcohol.Text = ""
         btnok.Enabled = False
-        btnreset.Enabled = False
         btnok.BackColor = Color.Bisque
         btnreset.BackColor = Color.Bisque
     End Sub
