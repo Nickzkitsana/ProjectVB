@@ -109,5 +109,26 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\กราฟ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ตาราง1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ตาราง2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ภาพ2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sonya-Swarm-Wine.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\431793.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
