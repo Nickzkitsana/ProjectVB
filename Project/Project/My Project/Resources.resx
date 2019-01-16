@@ -118,11 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ตาราง2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ตาราง2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="wine-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\wine-icon.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="24259h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24259h.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sonya-Swarm-Wine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sonya-Swarm-Wine.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ตาราง1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ตาราง1.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,11 +136,14 @@
   <data name="กราฟ" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\กราฟ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Sonya-Swarm-Wine" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Sonya-Swarm-Wine.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="ตาราง2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ตาราง2.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="431793" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\431793.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="42694058_2251039655129733_5424678436562010112_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42694058_2251039655129733_5424678436562010112_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

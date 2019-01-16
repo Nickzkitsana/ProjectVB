@@ -36,7 +36,7 @@
                 Else
                     txt = "Mid"
                 End If
-            ElseIf Alcohol >= 10.6 Or Alcohol <= 12.5 Then
+            ElseIf Alcohol >= 10.6 And Alcohol <= 12.5 Then
                 If pH <= 3.5 Then
                     If Sugar <= 2.5 Then
                         txt = "Mid"
@@ -44,13 +44,15 @@
                         txt = "Low"
                     End If
                 End If
+            Else
+                txt = "High"
             End If
 
-            If Alcohol > 12.5 Then
-                MessageBox.Show("ปริมาณ Alcohol ควรน้อยกว่าหรือเท่ากับ 12.5", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            If Alcohol >= 100 Then
+                MessageBox.Show("ปริมาณ Alcohol ควรน้อยกว่าหรือเท่ากับ 100", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 txtAlcohol.Text = ""
-            ElseIf pH > 3.5 Then
-                MessageBox.Show("ปริมาณ pH ควรน้อยกว่าหรือเท่ากับ 3.5", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
+            ElseIf pH > 15 Then
+                MessageBox.Show("ปริมาณ pH ควรน้อยกว่าหรือเท่ากับ 14", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 txtpH.Text = ""
             ElseIf Sugar > 100 Then
                 MessageBox.Show("ปริมาณของน้ำตาล ควรน้อยกว่า 100", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
@@ -77,8 +79,8 @@
         txtAlcohol.Text = ""
         btnok.Enabled = False
         btnreset.Enabled = False
-        btnok.BackColor = Color.Bisque
-        btnreset.BackColor = Color.Bisque
+        btnok.BackColor = Color.MintCream
+        btnreset.BackColor = Color.MintCream
     End Sub
 
     Private Sub txtSugar_TextChanged(sender As Object, e As EventArgs) Handles txtSugar.TextChanged, txtpH.TextChanged, txtAlcohol.TextChanged
@@ -92,8 +94,8 @@
         Else
             btnok.Enabled = False
             btnreset.Enabled = False
-            btnok.BackColor = Color.Bisque
-            btnreset.BackColor = Color.Bisque
+            btnok.BackColor = Color.MintCream
+            btnreset.BackColor = Color.MintCream
         End If
 
     End Sub
@@ -106,8 +108,8 @@
             lblalcohol.Text = ""
             btnClicked = False
         Else
-            lblpH.Text = "ค่า pH ควรน้อยกว่าหรือเท่ากับ 3.5"
-            lblalcohol.Text = "ค่า Alcohol ควรน้อยกว่าหรือเท่ากับ 12.5"
+            lblpH.Text = "ค่า pH ควรน้อยกว่าหรือเท่ากับ 14"
+            lblalcohol.Text = "ค่า Alcohol ควรน้อยกว่าหรือเท่ากับ 100"
             lblsugar.Text = "ค่าปริมาณน้ำตาล ควรน้อยกว่าหรือเท่ากับ 100"
             btnClicked = True
         End If
