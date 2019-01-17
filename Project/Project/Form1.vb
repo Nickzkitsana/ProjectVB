@@ -51,7 +51,7 @@
             If Alcohol >= 100 Then
                 MessageBox.Show("ปริมาณ Alcohol ควรน้อยกว่าหรือเท่ากับ 100", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 txtAlcohol.Text = ""
-            ElseIf pH > 15 Then
+            ElseIf pH > 14 Then
                 MessageBox.Show("ปริมาณ pH ควรน้อยกว่าหรือเท่ากับ 14", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning)
                 txtpH.Text = ""
             ElseIf Sugar > 100 Then
